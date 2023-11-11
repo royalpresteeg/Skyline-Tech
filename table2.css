@@ -21,8 +21,13 @@ tbody:nth-child(even){
     background-color: lightgrey;
     color: white;
 }
-tbodynth-child(odd):hover{
+tbody:nth-child(odd):hover{
     background-color: lightgrey;
+    color: white;
+}
+tbody:nth-child(even):hover{
+    background-color: white;
+    color: black;
 }
 .fa-xmark{
     color: red;
