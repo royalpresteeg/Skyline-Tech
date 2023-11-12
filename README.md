@@ -1,1 +1,1 @@
-For table3 contents.
+table3.html contains all student course outline for Skyline ITC.

@@ -3,27 +3,33 @@
     margin: 20px;
 }
 caption{
+    background-color:orangered;
+    border-radius: 10px;
 }
 table{
     max-width: 80%;
 }
 
 table,td,th{
-    border: 1px solid;
+    border-top: 1px solid;
     border-collapse: collapse;
 }
-
-thead{
+th{
+    background-color: blue;
     color: white;
+}
+.thead{
+    color: white;
+    font-weight: bold;
     background-color: blue;
 }
-tbody:nth-child(even){
+/* tbody:nth-child(even){
     background-color: lightgrey;
     color: white;
 }
 tbodynth-child(odd):hover{
     background-color: lightgrey;
-}
+} */
 .fa-xmark{
     color: red;
 }
